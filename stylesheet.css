@@ -1,0 +1,173 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div, iframe, footer {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  background-color: #e6e6fa;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  color: white;
+  opacity: 0.8;
+  background-color: #483d8b;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+header img {
+  height: 100px;
+  float: left;
+}
+
+.menu {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.menu a {
+  display: block;
+}
+
+.menu a:hover {
+  background-color: #66cdaa;
+}
+
+.menu i {
+  margin-right: 5px;
+}
+
+.menu li {
+  float: left;
+  font-size: 24px;
+  list-style: none;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  width: 200px;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+}
+
+.menu li+li {
+  border-left: 0;
+  border-right: 1px solid #000000;
+}
+
+.main-image {
+  width: 1000px;
+  margin: 0;
+}
+
+.main-contents {
+ margin: 0 auto;
+ padding-top: 100px;
+ width: 1000px;
+}
+
+.contents1 ,.contents2 ,.contents3 ,.contents4 {
+  margin-top: 100px;
+  height: 400px;
+}
+
+.contents1-text, .contents3-text {
+  float: right;
+  display: inline-block;
+}
+
+h1 {
+  border-bottom: 1px solid #696969;
+
+}
+
+.contents1-text p,
+ .contents2-text p,
+  .contents3-text p {
+  padding-top: 20px;
+}
+
+.contents1-text span,
+ .contents2-text span,
+  .contents3-text span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.img-group1 {
+  margin: 0;
+  display: inline-block;
+  folat: left;
+}
+
+.contents2-text {
+  width: 585px;
+  float: left;
+}
+
+.img-group2 {
+  float: right;
+  display: inline-block;
+}
+
+.contents3-text {
+  width: 385px;
+}
+
+.contents4{
+  margin-bottom: 100px;
+}
+
+.contents4 h1 {
+  text-align: center;
+}
+
+.move-contents {
+  width: 300px;
+  display: inline-block;
+}
+
+.move-mori, .move-tsushima {
+  margin-left: 44px;
+}
+
+iframe {
+  display: inline-block;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.move p {
+   word-break: break-all;
+}
+
+footer {
+  height: 80px;
+  background-color: #483d8b;
+}
+
+footer p {
+  float: left;
+  color: white;
+  line-height: 80px
+}
+
+.logo {
+  float: right;
+  height: 80px;
+}
